@@ -1,2 +1,8 @@
 # andenv
-Android SDK setup script for downloading and installing the SDK
+
+    # Update the script to point to your SDK versions
+    ruby andenv.rb
+
+    export ANDROID_HOME="${PWD}/.andenv/usr/local/android-sdk-macosx"
+    export PATH="${ANDROID_HOME}/tools;${ANDROID_HOME}/platform-tools:${PATH}"
+
